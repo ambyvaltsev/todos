@@ -1,0 +1,51 @@
+.container {
+  padding: 0 10px;
+  .content {
+    max-width: 768px;
+    margin: 0 auto;
+    min-height: inherit;
+    .header {
+      position: relative;
+      border: 1px solid black;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      .header__title {
+        font-size: 24px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .header__btnPopup {
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
+        font-size: 28px;
+      }
+      .header__btnDelete {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        font-size: 18px;
+      }
+      .header__btnEdit {
+        position: absolute;
+        top: 50%;
+        right: 95px;
+        transform: translateY(-50%);
+        font-size: 22px;
+      }
+    }
+    .popup {
+      padding: 0 15px;
+      .btn__add {
+        font-size: 18px;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        background-color: unset;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+    }
+  }
+}

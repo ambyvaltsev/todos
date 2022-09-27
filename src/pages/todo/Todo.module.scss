@@ -1,0 +1,49 @@
+.container {
+  padding: 20px 10px;
+  .btn__back {
+    background-color: unset;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .content {
+    max-width: 768px;
+    margin: 0 auto;
+    min-height: inherit;
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      .header__title {
+        text-align: center;
+        font-size: 24px;
+        padding: 20px 0;
+      }
+      .header__editIcon {
+        cursor: pointer;
+        font-size: 26px;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+    .todo {
+      .todo__item {
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+        .item__title {
+          width: 80px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+        .item__body {
+          font-style: italic;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
