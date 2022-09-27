@@ -7,7 +7,7 @@ import "./index.scss";
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/todos'}>
       <Provider store={store}>
         <div className="App">
           <Routes>
